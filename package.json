@@ -1,0 +1,86 @@
+{
+  "name": "instacash-js",
+  "version": "0.13.20",
+  "description": "A pure and powerful JavaScript InstaCash library.",
+  "author": "Scott Lindh <scottlindh@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    "BitPay <dev@bitpay.com>",
+    "Daniel Cousens <bitcoin@dcousens.com>",
+    "Esteban Ordano <eordano@gmail.com>",
+    "Gordon Hall <gordon@bitpay.com>",
+    "Jeff Garzik <jgarzik@bitpay.com>",
+    "Kyle Drake <kyle@kyledrake.net>",
+    "Manuel Araoz <manuelaraoz@gmail.com>",
+    "Matias Alejo Garcia <ematiu@gmail.com>",
+    "Ryan X. Charles <ryanxcharles@gmail.com>",
+    "Stefan Thomas <moon@justmoon.net>",
+    "Stephen Pair <stephen@bitpay.com>",
+    "Wei Lu <luwei.here@gmail.com>",
+    "UdjinM6 <UdjinM6@gmail.com>",
+    "Jon Kindel <jon@dash.org>",
+    "Alex Werner <alex@werner.fr>",
+    "Scott Lindh <scottlindh@gmail.com>"
+  ],
+  "keywords": [
+    "insta",
+    "instacash",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insta-cash/instacash-js.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "bn.js": "=2.0.4",
+    "bs58": "=2.0.0",
+    "buffer-compare": "=1.0.0",
+    "elliptic": "=3.0.3",
+    "inherits": "=2.0.1",
+    "lodash": "=3.10.1",
+    "node-gyp": "^3.6.2",
+    "rebuild": "^0.1.2",
+    "sha512": "=0.0.1",
+    "windows-build-tools": "^2.2.1",
+    "x11-hash-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "bitcore-build-dash": "git+https://github.com/dashevo/bitcore-build-dash.git",
+    "brfs": "^1.2.0",
+    "browserify": "latest",
+    "chai": "^1.10.0",
+    "gulp": "^3.9.1",
+    "sinon": "^1.13.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insta-cash/instacash-js/issues"
+  },
+  "homepage": "https://github.com/insta-cash/instacash-js#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  }
+}
